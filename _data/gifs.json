@@ -333,5 +333,10 @@
         "path": "/static/img/youre-the-man-now-dog.jpg",
         "tags": "gifs",
         "title": "you're the man now dog"
+    },
+    {
+        "path": "/static/img/zip-it.webp",
+        "tags": "gifs",
+        "title": "Zip It!"
     }
 ]
