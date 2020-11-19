@@ -55,6 +55,11 @@
         "title": "did i do that"
     },
     {
+        "path": "/static/img/dumpster-fire-2020.gif",
+        "tags": "gifs",
+        "title": "2020 is such a dumpster fire"
+    },
+    {
         "path": "/static/img/emoji.jpg",
         "tags": "gifs",
         "title": "emoji"
@@ -198,6 +203,11 @@
         "path": "/static/img/michael-scott-no.gif",
         "tags": "gifs",
         "title": "michael scott no"
+    },
+    {
+        "path": "/static/img/mo-farah.jpg",
+        "tags": "gifs",
+        "title": "mo farah winning"
     },
     {
         "path": "/static/img/no-memory.jpg",
