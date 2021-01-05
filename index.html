@@ -11,7 +11,7 @@ server: gifs.b17.dev
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="stylesheet" href="{{ '/static/css/main.css' | url }}" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" crossorigin="anonymous"/>
 
     <title>{{title}}</title>
@@ -61,7 +61,7 @@ function copyToClipboard(address)
              class='bg-white rounded h-full text-grey-darkest no-underline shadow-md'
              onClick="copyToClipboard('{{ item.path }}');return false;">
                 <h1 class="text-3xl p-6">{{item.title}}</h1>
-                <img class="w-full block rounded-b" src="{{ item.path }}">
+                <img class="w-full block rounded-b" src="{{ item.path }}" alt="{{ item.title }}">
             </a>
 {% endfor %}
 
