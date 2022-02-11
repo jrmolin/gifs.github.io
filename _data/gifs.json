@@ -1,5 +1,10 @@
 [
     {
+        "path": "/static/img/10-4-good-buddy.jpg",
+        "tags": "gifs",
+        "title": "afraid to ask kubernetes"
+    },
+    {
         "path": "/static/img/afraid-to-ask-kubernetes.jpg",
         "tags": "gifs",
         "title": "afraid to ask kubernetes"
